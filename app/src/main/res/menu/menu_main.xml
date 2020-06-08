@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.billmini.MainActivity">
+    <item
+        android:id="@+id/delete_all"
+        android:orderInCategory="100"
+        android:title="Delete_All"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/chart_all"
+        android:orderInCategory="100"
+        android:title="Chart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about_all"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>

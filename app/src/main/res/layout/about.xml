@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="About"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="0.51"
+        tools:text="About"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp">
+
+        <TextView
+            android:text="开发说明：这是一个记账本"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView2"
+            tools:text="开发说明：这是一个记账本"
+            android:layout_weight="0.05"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="移动应用开发大作业"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView4"
+            android:layout_weight="0.04"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:text="20200608"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView3"
+        android:layout_weight="0.12"
+        tools:text="20200608"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="108dp">
+
+    </LinearLayout>
+
+    <Button
+        android:text="返回"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_weight="0.05" />
+
+</LinearLayout>
